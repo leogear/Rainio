@@ -26,3 +26,9 @@
 
 ###Demo:
 > [Video](https://www.facebook.com/harrynhokz/videos/973367129457360/)
+
+###Contact:
+
+>  - [Facebook](https://fb.com/harrynhokz)
+>  - [Facebook page](https://www.facebook.com/leogearsoftware/)
+>  - [Email](mailto:harrynhok@gmail.com)
