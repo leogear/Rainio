@@ -23,3 +23,6 @@
 > - Download zip file or clone to desktop.
 > - Enable "Developer mode" on Google Chrome.
 > - Drag and drop zip file to the browser or hit "Load unpacked extention". Then navigate to unzipped Rainio folder.
+
+###Demo:
+> [Video](https://www.facebook.com/harrynhokz/videos/973367129457360/)
