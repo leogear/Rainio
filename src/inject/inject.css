@@ -1,0 +1,36 @@
+/**************************************************************************
+* Author: Nguyen Ba Anh Dung
+* Author URL: www.fb.com/harrynhokz, www.fb.com/leogearsoftware
+* Mail: dungnb4@gmail.com, harrynhok@gmail.com
+* FB: harrynhokz, nb4dz
+**************************************************************************/
+.action-panel-trigger-download:before {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfl4TIZxK.webp) -107px -940px;
+    background-size: auto;
+    width: 20px;
+    height: 20px;
+}
+
+.download-action-panels {
+    position: relative;
+}
+
+#download-panel-dismiss {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+#download-panel-dismiss, 
+#download-panel-dismiss:hover {
+    background: none;
+    border: none;
+}
+
+#download-panel-dismiss:before, 
+.download-panel-trigger-dismiss:before {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfl4TIZxK.webp) -109px -1396px;
+    background-size: auto;
+    width: 10px;
+    height: 10px;
+}

@@ -1,0 +1,64 @@
+<div id="download-action-panels" class="download-action-panels yt-uix-button-panel yt-card yt-card-has-padding hid">
+    <div id="action-panel-download" class="action-panel-content" data-panel-loaded="true">
+        <div id="download-actions-loading" class="hid">
+            <div class="action-panel-loading">
+                <p class="yt-spinner ">
+                    <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+                    <span class="yt-spinner-message">
+                        Loading...
+                    </span>
+                </p>
+
+            </div>
+        </div>
+
+        <div id="download-actions-panel" class="hid">
+            <div class="share-panel">
+                <div class="yt-uix-tabs">
+                    <span class="yt-uix-button-group">
+                        <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-text yt-card-title yt-uix-button-toggled" type="button" data-panel="download-panel-audio" >
+                            <span class="yt-uix-button-content">Audio</span>
+                    </button>
+
+                    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-text yt-card-title" type="button" data-panel="download-panel-video">
+                            <span class="yt-uix-button-content">Video</span>
+                        </button>
+                    </span>
+                </div>
+
+                <div class="download-panel download-panel-audio">
+                    <ul class="watch-extras-section">
+                        <!--<li class="watch-meta-item has-image ">
+                            <h4 class="title">Title</h4>
+                            <span class="metadata-row-image">
+                                <a href="#">
+                                    <img src="{thumbnail}">
+                                </a>
+                            </span>
+                            <ul class="content watch-info-tag-list">
+                                <li>{title}</li>
+                            </ul>
+                        </li>-->
+                        {audiolist}
+                    </ul>
+                    <!--<select class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" name="" id="">
+                        <option value="">sadasd</option>
+                        <option value="">sadasd</option>
+                        <option value="">sadasd</option>
+                        <option value="">sadasd</option>
+                        <option value="">sadasd</option>
+                    </select>
+                    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-primary yt-uix-button-empty yt-audio-download">getlink</button>-->
+                </div>
+
+                <div class="download-panel download-panel-video hid">
+                    <ul class="watch-extras-section">
+                        {videolist}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup yt-uix-button-opacity yt-uix-close"
+        type="button" id="download-panel-dismiss" data-close-parent-id="download-action-panels"></button>
+</div>
